@@ -11,9 +11,14 @@ public class App {
     public String getAnotherGreeting() {
         return "Greetings!";
     }
+    public String getThirdGreeting() {
+        return "Hi!";
+    }
 
     public static void main(String[] args) {
+
         System.out.println(new App().getGreeting());
+
         System.out.println(new App().getAnotherGreeting());
     }
 }
